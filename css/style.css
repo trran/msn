@@ -1,0 +1,96 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  text-align: center;
+  padding-top: 150px;
+  background-image: url(../images/Smitty\ tasa.jpg);
+  background-repeat: space;
+  background-position: 50%;
+}
+
+.login-container {
+  padding-top: 40px;
+  padding-left: 50px;
+  text-align: initial;
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  background-color: white;
+}
+
+.username-password{
+  display: inline-block;
+}
+
+.username-password a {
+  color: #005DA6;
+  text-decoration: none;
+}
+
+.username-password-label {
+  width: 100%;
+}
+
+.username-password a:hover {
+  text-decoration: underline;
+}
+
+.username-password input {
+  border-style: none;
+  border-bottom-style: ridge;
+}
+
+.main-bnt {  
+  background-color: #005DA6;
+  border: 0;
+  height: 30px;
+  width: 110px;;
+  color: white;
+  margin-top: 70px;
+  margin-left: 270px;  
+}
+
+.main-bnt:hover{
+  text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  background: rgba(0, 0, 0, .6);
+  color: white;
+  bottom: 0;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:600px)
+{
+  body{
+    padding-top: 0;
+  }
+  .login-container {
+    width: 95vw;
+    height: 90vh;
+  } 
+
+  footer{
+    display: none;
+  }
+}
